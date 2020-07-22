@@ -1,0 +1,152 @@
+body{
+  text-align: center;
+}
+
+.banner {
+  background-image:  linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%),url(images/beach.jpg); 
+	background-size: cover;     
+	background-position: center;
+  height: 550px;
+  margin: 10px;
+  padding: 40px 50px;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 100px;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+.banner h2 {
+  color: white;
+  font-size: 30px;
+	opacity: 0.8;
+	font-family: 'Lato', sans-serif;
+	padding-bottom: 20px;
+  text-align: center;
+}
+
+.banner a {
+  color: white;
+  background-color: #44BBA4;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 20px;
+  font-family: calibri;
+  padding: 10px 20px;
+  margin-bottom: 50px;
+  	border-radius: 5px;
+  	box-shadow: 0 0 16px rgba(0,0,0,0.1); 
+}
+
+.banner a:hover {
+  background-color: #F7DD72;
+  color: grey;
+ }
+
+
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin: 30px auto;
+  align-items: center;
+  text-align: center
+}
+
+.card img {
+  width:250px;
+  box-shadow: 0px 10px 10px rgba( 0,0,0,0.1)
+}
+
+.card{
+background: white;
+padding: 10px 10px;
+margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgba( 0,0,0,0.1)
+}
+
+.card a{
+  text-decoration: none;
+  color: rgb(60, 60, 60);
+  letter-spacing: 2px;
+
+ }
+
+.card a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+
+
+
+.footer{
+  background-image:  linear-gradient(-225deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 80%),url(images/globe.jpg); 
+  padding: 10px;
+  background-position: center;
+  background-size: cover; 
+}
+.footer h2{
+  color: white;
+  font-size: 20px;
+}
+
+.fa {
+  padding: 16px;
+  font-size: 50px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+.fa:hover {
+  background-color: #F7DD72;
+}
+
+.list-inline {
+  list-style: none; 
+  padding-left: 0px; 
+}
+
+.list-inline > li {
+  display: inline;
+  padding: 0px 20px; 
+}
+
+
+
+@media (max-width: 760px) {
+  .container{
+    width: 600px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .container{
+    width: 400px;
+    grid-template-columns: 1fr;
+  }
+}
+
+
